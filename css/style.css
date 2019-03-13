@@ -8,6 +8,7 @@ html {font-size: 10px;}
 
 /*Sidebar*/
 .sidebar {
+  text-align: center;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 25px 0px rgba(219, 219, 219, 0.5);
   position: fixed;
@@ -17,3 +18,24 @@ html {font-size: 10px;}
   height: 100vh;
   z-index: 5;
 }
+
+.logo {padding-top: 30px;}
+
+.logo img {width: 3rem;}
+
+.items {padding-top: 10rem;}
+
+.item {margin-bottom: 5rem;}
+
+.item img {width: 2rem;}
+
+.item-1 img {width: 1.7rem;}
+
+.in {
+	position: absolute;
+	bottom: 4rem;
+	left: 50%;
+	margin-left: -1rem;
+}
+
+.in img {width: 2rem;}
