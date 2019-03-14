@@ -10,6 +10,9 @@ body {
 html {
 	font-size: 10px;
 }
+a:focus {
+	outline: none;
+}
 button:focus {
 	outline: none;
 }
@@ -126,12 +129,35 @@ button:focus {
 
 /*Menu*/
 .menu {
+	transform: translateX(100%);
 	position: fixed;
 	top: 0;
 	right: 0;
 	width: 35rem;
 	height: 100vh;
 	background-color: #fff;
+	transition: all 0.3s;
+}
+#main-menu:target {
+	transform: translateX(0);
+}
+#main-menu:target + .hamburger {
+	display: none;
+}
+#close-menu {
+	padding-top: 0;
+}
+#close-menu span {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: 0;
+}
+#close-menu span:nth-child(1) {
+	transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+#close-menu span:nth-child(2) {
+	transform: translateX(-50%) translateY(-50%) rotate(-45deg);
 }
 .navigation img {
 	width: 4rem;
