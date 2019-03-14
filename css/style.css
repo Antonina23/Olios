@@ -212,3 +212,23 @@ button:focus {
 	height: 2px;
 	background-color: #0023ff;
 }
+
+/*Media*/
+@media (max-width: 1024px) {
+	html {
+		font-size: 8px;
+	}
+	.navigation {
+		padding-top: 15rem;
+	}
+}
+
+@media (max-width: 768px) {
+	html {
+		font-size: 6px;
+	}
+	.hamburger {
+		width: 6rem;
+		height: 6rem;
+	}
+}
