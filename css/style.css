@@ -216,12 +216,14 @@ button:focus {
 
 /*Products*/
 .container {
-	width: 960px;
+	width: 1024px;
 	margin: 0 auto;
 }
 .categories {
 	background-color: #f0f0f0;
 	min-height: 100vh;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
 }
 .products-cards {
 	padding-top: 4rem;
@@ -273,9 +275,6 @@ button:focus {
 	vertical-align: middle;
 	margin-left: 2rem;
 }
-.categories {
-	padding-top: 4rem;
-}
 .card img {
 	display: inline-block;
 	height: 20rem;
@@ -304,8 +303,16 @@ button:focus {
 .card:nth-child(2) h3 {
 	font-size: 3rem;
 }
-
-
+.show-more-link {
+	text-align: center;
+	margin-top: 4rem;
+}
+.show-more-link a {
+	text-transform: uppercase;
+	color: #0023ff;
+	font-size: 1.5rem;
+	text-decoration: none;
+}
 
 /*Media*/
 @media (max-width: 1024px) {
