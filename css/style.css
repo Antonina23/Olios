@@ -213,6 +213,43 @@ button:focus {
 	background-color: #0023ff;
 }
 
+/*Products*/
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+.categories {
+	background-color: #f0f0f0;
+	min-height: 100vh;
+}
+.card {
+	display: inline-block;
+}
+.categories-header h2 {
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 4rem;
+	display: inline-block;
+}
+.categories-header span {
+	vertical-align: top;
+	display: inline-block;
+	text-align: right;
+	float: right;
+	font-size: 2rem;
+	color: #c1c1c1;
+	text-transform: uppercase;
+}
+.categories-header span img {
+	width: 4rem;
+	display: inline;
+	vertical-align: middle;
+	margin-left: 2rem;
+}
+.categories {
+	padding-top: 4rem;
+}
+
 /*Media*/
 @media (max-width: 1024px) {
 	html {
