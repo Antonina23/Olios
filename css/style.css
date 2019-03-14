@@ -140,6 +140,7 @@ button:focus {
 }
 #main-menu:target {
 	transform: translateX(0);
+	box-shadow: 0 0 3rem rgba(0,0,0,0.1);
 }
 #main-menu:target + .hamburger {
 	display: none;
@@ -222,7 +223,33 @@ button:focus {
 	background-color: #f0f0f0;
 	min-height: 100vh;
 }
+.products-cards {
+	padding-top: 4rem;
+}
 .card {
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #fff;
+	text-decoration: none;
+	color: #a8a8a8;
+	line-height: 2rem;
+	padding: 1rem;
+	margin-top: 2rem;
+	height: 30rem;
+}
+.card h3 {
+	text-transform: uppercase;
+	font-size: 1.6rem;
+	color: #000;
+}
+.card p {
+	font-size: 1.3rem;
+}
+.card-price {
+	color: #0023ff;
+	font-weight: 900;
+	font-size: 1.6rem;
+	margin-top: 1rem;
 	display: inline-block;
 }
 .categories-header h2 {
@@ -249,6 +276,36 @@ button:focus {
 .categories {
 	padding-top: 4rem;
 }
+.card img {
+	display: inline-block;
+	height: 20rem;
+	vertical-align: middle;
+}
+.card-text {
+	display: inline-block;
+	margin-left: 3rem;
+	vertical-align: middle;
+}
+.card:nth-child(1), .card:nth-child(3) {
+	width: 25%;
+	margin-right: 2rem;
+}
+.card:nth-child(2) {
+	padding-top: 6rem;
+	line-height: 3rem;
+	width: 70%;
+}
+.card:nth-child(4) {
+	padding-top: 6rem;
+	line-height: 3rem;
+	width: 44.8%;
+	margin-right: 2rem;
+}
+.card:nth-child(2) h3 {
+	font-size: 3rem;
+}
+
+
 
 /*Media*/
 @media (max-width: 1024px) {
