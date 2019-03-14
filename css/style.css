@@ -123,3 +123,51 @@ button:focus {
 	padding: 1.5rem 5rem;
 	font-size: 1.4rem;
 }
+
+/*Menu*/
+.menu {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 35rem;
+	height: 100vh;
+	background-color: #fff;
+}
+.navigation img {
+	width: 4rem;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 2rem;
+}
+.navigation {
+	text-align: right;
+	padding-right: 5rem;
+	padding-top: 20rem;
+}
+.navigation a {
+	line-height: 4rem;
+	text-transform: uppercase;
+	font-size: 2rem;
+	color: #c1c1c1;
+	text-decoration: none;
+}
+.categories-link {
+	position: absolute;
+	bottom: 5rem;
+	right: 50%;
+	transform: translateX(50%);
+	text-transform: uppercase;
+}
+.categories-link a {
+	color: #0023ff;
+	font-weight: 400;
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+.link-line {
+	display: block;
+	width: 70%;
+	margin: 1rem auto;
+	height: 2px;
+	background-color: #0023ff;
+}
