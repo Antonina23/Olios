@@ -453,8 +453,17 @@ button:focus, input:focus {
 	text-transform: uppercase;
 	font-weight: 900;
 }
-
-
+.recomended {
+	width: 100%;
+	background-color: #fff;
+	height: 20rem;
+	position: relative;
+}
+.recomended-head {
+	top: 50%;
+	transform: rotate(90deg);
+	position: absolute;
+}
 
 
 
