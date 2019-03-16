@@ -16,24 +16,15 @@
 			</picture>
 		</div>
 		<div class="items">
-			<div class="item item-1">
-				<picture>
-				<source src="img/home.svg" type="image/svg+xml">
-				<img src="img/home.png" alt="home">
-				</picture>
-			</div>
-			<div class="item item-2">
-				<picture>
-				<source src="img/basket.svg" type="image/svg+xml">
-				<img src="img/basket.png" alt="basket">
-				</picture>
-			</div>
-			<div class="item item-3">
-				<picture>
-				<source src="img/search.svg" type="image/svg+xml">
-				<img src="img/search.png" alt="search">
-				</picture>
-			</div>
+			<a href="#" class="item item-1">
+				
+			</a>
+			<a href="#" class="item item-2">
+				
+			</a>
+			<a href="#search-block" class="item item-3">
+				
+			</a>
 		</div>
 		<div class="in">
 		<a href="#">
@@ -60,9 +51,11 @@
 			<div class="products-cards">
 				<a href="#" class="card">
 					<img src="img/products/red-seat.png" alt="Red Seat">
-					<h3>red seat</h3>
-					<p>Beautiful modern bright red seat</p>
-					<span class="card-price">$45</span>
+					<span class="mini-card-text">
+						<h3>red seat</h3>
+						<p>Beautiful modern bright red seat</p>
+						<span class="card-price">$45</span>
+					</span>
 				</a>
 				<a href="#" class="card">
 					<img src="img/products/white-table.png" alt="White table">
@@ -74,23 +67,29 @@
 				</a>
 				<a href="#" class="card">
 					<img src="img/products/blue-seat.png" alt="Blue Seat">
-					<h3>blue seat</h3>
-					<p>Stylish modern luxury blue seat</p>
-					<span class="card-price">$35</span>
+					<span class="mini-card-text">
+						<h3>blue seat</h3>
+						<p>Stylish modern luxury blue seat</p>
+						<span class="card-price">$35</span>
+					</span>
 				</a>
 				<a href="#" class="card">
 					<img src="img/products/modern-bed.png" alt="Modern bed">
 					<span class="card-text">
-						<h3>modern bed</h3>
-						<p>Super comfortable huge modern bed</p>
-						<span class="card-price">$120</span>
+						<span class="mini-card-text">
+							<h3>modern bed</h3>
+							<p>Super comfortable huge modern bed</p>
+							<span class="card-price">$120</span>
+						</span>
 					</span>
 				</a>
-				<a href="#" class="card">
+				<a href="card.html" class="card">
 					<img src="img/products/dark-seat.png" alt="Dark Seat">
-					<h3>dark seat</h3>
-					<p>Classic comfy ergonomic dark seat</p>
-					<span class="card-price">$50</span>
+					<span class="mini-card-text">
+						<h3>dark seat</h3>
+						<p>Classic comfy ergonomic dark seat</p>
+						<span class="card-price">$50</span>
+					</span>
 				</a>
 			</div>
 			<div class="show-more-link">
@@ -105,7 +104,7 @@
 			<span></span>
 			</a>	
 			<ul class="navigation">
-				<li><a href="#">
+				<li><a href="products.html">
 				living room
 				<picture>
 				<source src="img/menu/living-room.svg" type="image/svg+xml">
@@ -153,7 +152,23 @@
 			<span></span>
 	</a>	
 
-
+	<div id="search-block" class="search-block">
+		<form action="">
+			<input type="text" class="input-search" value="red seat">
+			<a class="search-close" href="#close">&times;</a>
+			<p class="help-text">Type product that you are looking for</p>
+		</form>
+		<div class="search-result">
+			<div class="result-product">
+				<img src="img/products/red-seat.png" alt="Red Seat">
+				<span>red seat</span>
+			</div>
+			<div class="result-product">
+				<img src="img/products/blue-seat.png" alt="Blue Seat">
+				<span>blue seat</span>
+			</div>
+		</div>
+	</div>
 	
 
 
