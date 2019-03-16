@@ -503,6 +503,7 @@ button:focus, input:focus {
 
 /*Search-block*/
 .search-block:target {
+	padding-top: 20rem;
 	padding-left: 20rem;
 	z-index: 4;
 	position: fixed;
@@ -511,14 +512,51 @@ button:focus, input:focus {
 	width: 100vw;
 	height: 100vh;
 	min-height: 45rem;
-	background-color: rgba(255,255,255,0.9); 
+	background-color: rgba(255,255,255,0.95); 
 }
 .input-search {
 	border: none;
-	border-bottom: 1px solid rgba(0,0,0,0.1);
+	border-bottom: 2px solid rgba(0,0,0,0.1);
 	width: 70%;
+	background-color: transparent;
+	height: 3rem;
+	font-size: 5rem;
+	padding: 3rem;
+	padding-left: 0;
+	font-weight: 100;
+	text-transform: uppercase;
+	padding-bottom: 5rem; 
 }
-
+.search-close {
+	text-decoration: none;
+	font-size: 6rem;
+	color: rgba(0,0,0,0.5);
+	vertical-align: top;
+}
+.help-text {
+	font-size: 1.5rem;
+	color: rgba(0,0,0,0.4);
+	margin-top: 2rem;
+}
+.search-result {
+	margin-top: 4rem;
+}
+.result-product {
+	display: inline-block;
+	width: 35%;
+	vertical-align: middle;
+}
+.result-product img {
+	vertical-align: middle;
+	width: 20rem;
+}
+.result-product span {
+	vertical-align: middle;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 3rem;
+	margin-left: 2rem;
+}
 
 
 /*Media*/
