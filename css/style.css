@@ -6,6 +6,7 @@ body {
 	font-family: 'Lato', sans-serife;
 	font-weight: 300;
 	position: relative;
+	overflow-x: hidden;
 	}
 html {
 	font-size: 10px;
@@ -279,7 +280,7 @@ button:focus, input:focus {
 	font-size: 2rem;
 	color: #c1c1c1;
 	text-transform: uppercase;
-	margin-right: 4rem;
+	margin-right: 10rem;
 }
 .categories-header span img {
 	width: 4rem;
@@ -337,7 +338,9 @@ button:focus, input:focus {
 .photo-block {
 	display: inline-block;
 	background-color: #fff;
-	position: relative;
+	position: fixed;
+	top: 0;
+	left: 10rem;
 	width: 50rem;
 	padding: 3rem;
 	padding-top: 5rem;
@@ -394,7 +397,11 @@ button:focus, input:focus {
 	vertical-align: top;
 	padding-top: 4rem;
 	padding-left: 4rem;
-	width: 50%;
+	width: 100%;
+	position: relative;
+	min-height: 80rem;
+	padding-left: 55rem;
+	height: 100vh;
 }
 .offer-text h3 {
 	text-transform: uppercase;
@@ -468,6 +475,7 @@ button:focus, input:focus {
 }
 .recomended {
 	width: 100%;
+	overflow-x: hidden;
 	background-color: #fff;
 	height: 20rem;
 	position: absolute;
@@ -576,6 +584,9 @@ button:focus, input:focus {
 	.result-product img {
 		width: 15rem;
 	}
+	.card-header {
+		padding-left: 47rem;
+	}
 	.container {
 		width: 90%;
 		margin: 0 auto;
@@ -587,6 +598,9 @@ button:focus, input:focus {
 	}
 	.recomended {
 		padding-left: 45rem;
+	}
+	.categories-header span {
+		font-size: 0.8rem;
 	}
 }
 @media (max-width: 1200px) {
@@ -624,6 +638,8 @@ button:focus, input:focus {
 		padding-top: 15rem;
 	}
 	.photo-block {
+		position: relative;
+		left: 0;
 		display: block;
 		width: 100%;
 		min-height: 50vh;
@@ -640,6 +656,12 @@ button:focus, input:focus {
 	}
 	.search {
 		text-align: center;
+	}
+	.card-header {
+		width: 100%;
+		min-height: 80rem;
+		height: auto;
+		padding-left: 5rem;
 	}
 	.recomended {
 		padding-left: 0;
