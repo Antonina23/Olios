@@ -39,13 +39,23 @@ button:focus, input:focus {
 	padding-top: 10rem;
 }
 .item {
+	width: 5rem;
+	display: block;
+	margin: 0 auto;
 	margin-bottom: 5rem;
+	height: 5rem;
 }
-.item img {
-	width: 2rem;
+.item-1 {
+	background: url(../img/home.svg) no-repeat center center;
+	background-size: 2rem;
 }
-.item-1 img {
-	width: 1.7rem;
+.item-2 {
+	background: url(../img/basket.svg) no-repeat center center;
+	background-size: 2.5rem;
+}
+.item-3 {
+	background: url(../img/search.svg) no-repeat center center;
+	background-size: 2rem;
 }
 .in {
 	position: absolute;
@@ -490,6 +500,25 @@ button:focus, input:focus {
 	font-size: 1.5rem;
 	line-height: 2;
 }
+
+/*Search-block*/
+.search-block:target {
+	padding-left: 20rem;
+	z-index: 4;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	min-height: 45rem;
+	background-color: rgba(255,255,255,0.9); 
+}
+.input-search {
+	border: none;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	width: 70%;
+}
+
 
 
 /*Media*/
